@@ -54,14 +54,33 @@ class HomePage extends React.Component {
           </div>
           <hr></hr>
           <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you like coding and want to share ideas or help each other out.</h3>
-      <p class="contact-message">Then contact me because I love new challenges and different ways to solve problems.</p>
-      <a class="btn" href="contactme.html">CONTACT ME</a>
-
-    </div>
-
-
+            <h2>Get In Touch</h2>
+            <h3>
+              If you like coding and want to share ideas or help each other out.
+            </h3>
+            <p class="contact-message">
+              Then contact me because I love new challenges and different ways
+              to solve problems.
+            </p>
+            <a class="btn" href="contactme.html">
+              CONTACT ME
+            </a>
+          </div>
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.instagram.com/lessie07/">
+              Instagram
+            </a>
+            <a class="footer-link" href="https://github.com/Lessie06/">
+              GitHub
+            </a>
+            <a
+              class="footer-link"
+              href="www.linkedin.com/in/lessie-quezada"
+            >
+              Linkedin
+            </a>
+            <p class="copyright">© 2021 Lessie Quezada.</p>
+          </div>
         </div>
       </div>
     );
