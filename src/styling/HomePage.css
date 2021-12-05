@@ -1,0 +1,46 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+.top-container {
+    background-color:#dbc6eb ;
+    position: relative;
+    padding-top: 50px;
+  
+  }
+h1 {
+    color: #ad6989;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+  
+}
+h2 {
+    color: #ad6989;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  .pro {
+    text-decoration: underline;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
+
+  .lessie-img{
+
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+  }
