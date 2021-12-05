@@ -52,6 +52,7 @@ class HomePage extends React.Component {
               </p>
             </div>
           </div>
+          </div>
           <hr></hr>
           <div class="contact-me">
             <h2>Get In Touch</h2>
@@ -73,15 +74,12 @@ class HomePage extends React.Component {
             <a class="footer-link" href="https://github.com/Lessie06/">
               GitHub
             </a>
-            <a
-              class="footer-link"
-              href="www.linkedin.com/in/lessie-quezada"
-            >
+            <a class="footer-link" href="www.linkedin.com/in/lessie-quezada">
               Linkedin
             </a>
             <p class="copyright">© 2021 Lessie Quezada.</p>
           </div>
-        </div>
+        
       </div>
     );
   }
