@@ -73,14 +73,23 @@
     left: 150px;
     bottom: 50px;
   }
-  /* .card-image{
-      width:100px;
-      height:100px;
-      margin: auto;
-      display: block;
-      padding-right: 20px;
-  } */
+  
   .cards{
     padding-left: 30px;
     padding-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+   padding-left: 130px;
+    
+
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }

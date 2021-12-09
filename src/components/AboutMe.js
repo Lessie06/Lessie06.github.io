@@ -47,16 +47,29 @@ function AboutMe() {
         <div className="row">
           <div className="column">
             <img className="images" src={html} alt="" />
+            </div>
+            <div className='column'>
             <img className="images" src={css} alt="" />
+            </div>
+            <div className='column'>
             <img className="images" src={javascript} alt="" />
+            </div>
 
+            <div className='column'>
             <img className="images" src={react} alt="" />
+            </div>
+            <div className='column'>
             <img className="images" src={bootstrap} alt="" />
+            </div>
+            <div className='column'>
             <img className="images" src={node} alt="" />
-            <hr />
-          </div>
+            </div>
+
+            
+          
           </div>
         </div>
+        <hr />
       </div>
 
       <Projectcards />
