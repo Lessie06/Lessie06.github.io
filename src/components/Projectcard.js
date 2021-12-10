@@ -3,12 +3,11 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import tindog from "../images/tindog.png";
 import Link from "@mui/material/Link";
 import giphy from "../images/giphy.jpg";
-import { Container, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import "../styling/AboutMe.css";
 import todo from '../images/todolist.jpg'
 
@@ -18,7 +17,7 @@ class Projectcards extends React.Component {
       <div>
         <div className="mid-container">
           <h1 className="header-text">My Projects</h1>
-          <Grid className='cards' container spacing={3} justify="center">
+          <Grid className='cards' container spacing={2} justify="center">
             <Grid item xs={12} sm={6} md={4}>
               <Card sx={{ maxWidth: 345 }}>
                 <CardMedia

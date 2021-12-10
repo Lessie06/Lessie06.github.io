@@ -10,10 +10,12 @@ import react from "../images/react.png";
 import bootstrap from "../images/bootstrap.png";
 import node from "../images/nodejs.png";
 import Projectcards from "./Projectcard";
+import NavBar from "./NavBar";
 
 function AboutMe() {
   return (
     <div>
+    <NavBar />
       <div className="top-container">
         <img className="topcloud" src={cloud} alt="cloud-img" />
 
@@ -38,7 +40,9 @@ function AboutMe() {
         </div>
 
         <img className="bottomcloud" src={cloud} alt="cloud-img" />
+        
       </div>
+      
 
       <div className="skills-container">
         <h1 className="header-text">My Skills</h1>
