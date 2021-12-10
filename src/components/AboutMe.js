@@ -40,7 +40,9 @@ function AboutMe() {
         </div>
 
         <img className="bottomcloud" src={cloud} alt="cloud-img" />
+        
       </div>
+      
 
       <div className="skills-container">
         <h1 className="header-text">My Skills</h1>
