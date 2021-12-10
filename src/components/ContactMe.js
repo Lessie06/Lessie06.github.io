@@ -1,6 +1,7 @@
 import React from "react";
 import "../styling/ContactMe.css";
 import emailjs from 'emailjs-com';
+import NavBar from "./NavBar";
 
 function ContactMe() {
   const sendEmail = (e) => {
@@ -15,7 +16,10 @@ function ContactMe() {
     }).catch(err=> console.log(err));
   };
   return (
+      <div>
+      <NavBar />
     <div className="top-container">
+    
       <div
         className="container border"
         style={{
@@ -70,6 +74,7 @@ function ContactMe() {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 }

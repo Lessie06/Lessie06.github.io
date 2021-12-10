@@ -6,11 +6,13 @@ import "../styling/HomePage.css";
 import java from "../images/java.png";
 import webdev from "../images/seo.png";
 import Footer from "./Footer";
+import NavBar from './NavBar'
 
 class HomePage extends React.Component {
   render() {
     return (
       <div>
+      <NavBar />
         <div className="top-container">
           <img className="top-cloud" src={cloud} alt="cloud-img"></img>
           <h1 className='h1'>I'm Lessie.</h1>
