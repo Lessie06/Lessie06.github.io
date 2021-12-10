@@ -64,7 +64,7 @@ class HomePage extends React.Component {
               Then contact me because I love new challenges and different ways
               to solve problems.
             </p>
-            <a className="btn" href="contactme.html">
+            <a className="btn" href="/ContactMe">
               CONTACT ME
             </a>
           </div>

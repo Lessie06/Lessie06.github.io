@@ -19,6 +19,9 @@ function ContactMe() {
       <div
         className="container border"
         style={{
+        margin: "auto",
+        display: "block",
+          border:"solid #ad5ead",
           marginTop: "50px",
           width: "50%",
 
@@ -35,17 +38,22 @@ function ContactMe() {
           style={{ margin: "25px 85px 75px 100px" }}
           onSubmit={sendEmail}
         >
-          <label>Name:</label>
+          <label style={{textAlign:"center"}}>Name:</label>
+          <br></br>
           <input type="text" name="name" className="form-control"></input>
+          <br></br>
 
           <label>Email:</label>
+          <br></br>
           <input
-            type="email"
+            type="text"
             name="user_email"
             className="form-control"
           ></input>
+          <br></br>
 
           <label>Message:</label>
+          
 
           <textarea
             name="message"

@@ -69,7 +69,7 @@ function AboutMe() {
           
           </div>
         </div>
-        <hr />
+        <hr></hr>
       </div>
 
       <Projectcards />

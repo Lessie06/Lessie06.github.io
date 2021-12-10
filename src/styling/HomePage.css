@@ -138,9 +138,12 @@ body {
       text-decoration:none;
       text-align:center;
       text-shadow:1px 1px 0px #ad5ead;
-  }.btn:hover {
+      margin-bottom: 20px;
+  }
+  .btn:hover {
       background-color:#8e33b8;
-  }.btn:active {
+  }
+  .btn:active {
       position:relative;
       top:1px;
   }
