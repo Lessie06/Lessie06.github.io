@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe'
+import ContactMe from './components/ContactMe'
 
 
 
@@ -15,6 +16,7 @@ ReactDOM.render(
   <Routes>
   <Route path='/' element={<HomePage />} />
     <Route path='/AboutMe' element={<AboutMe />} />
+    <Route path='/ContactMe' element={<ContactMe />} />
     </Routes>
     
   </React.StrictMode>
